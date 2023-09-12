@@ -1,47 +1,66 @@
-.quienes_somos__ {
-    color: rgb(110, 5, 63);
-    text-decoration: none;
+header {
+    background: transparent;
+    background-color: #23262d;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+    
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 15px;
+    height: 80px;
+    margin-right: 10px;
+}
+li {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #eb6f09ce;
-    border-radius: 5px;
-    border: 3px solid #025e16;
-    cursor: pointer;
-    margin-left: 600px;
+    list-style: none;
+
 }
 
-.quienes_somos__:hover {
-    color: red;
-    text-decoration: underline;
-}
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    font-weight: 50px;
+    padding-right: 10px;
 
-.servicios__ {
-    color: rgb(110, 5, 63);
+}
+.nav-link::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.nav-link::after {
+    width: 100%;
+    right: 0;
+}
+a{
+    color: white;
     text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #eb6f09ce;
-    border-radius: 5px;
-    border: 3px solid #025e16;
-    cursor: pointer;
-    margin-left: 200px;
 }
 
-.servicios__:hover {
-    color: red;
-    text-decoration: underline;
+a:hover{
+    color: blanchedalmond;
 }
 
-.test_button {
-    background-color: #041a08;
-    color: #37e40b;
-    border: 3px solid #d5d818;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
+h2 {
+    font-size: 50px;
+    align-items: center;
 }
 
-.test_button:hover {
-    color: red;
-}
+
