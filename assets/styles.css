@@ -1,0 +1,47 @@
+.quienes_somos__ {
+    color: rgb(110, 5, 63);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eb6f09ce;
+    border-radius: 5px;
+    border: 3px solid #025e16;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+.quienes_somos__:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.servicios__ {
+    color: rgb(110, 5, 63);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eb6f09ce;
+    border-radius: 5px;
+    border: 3px solid #025e16;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.servicios__:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.test_button {
+    background-color: #041a08;
+    color: #37e40b;
+    border: 3px solid #d5d818;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.test_button:hover {
+    color: red;
+}
