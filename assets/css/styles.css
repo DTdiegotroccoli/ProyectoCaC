@@ -16,6 +16,10 @@
 	--padding-container: 50px 0;
 }
 
+body {
+	background-color: cadetblue;
+}
+
 /* estilo para el header y nav */
 
 .container { 
@@ -88,12 +92,16 @@
 section {
 	background-color: var(--grisclaro);
 	padding-top: 100px;
-	margin-top: 100px;
+	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
 }
 
 .quienessomos {
 	font-family: var(--poppins);
-	font-size: 75px;
+	font-size: 45px;
 }
 
 p {
@@ -103,7 +111,8 @@ p {
 
 .nuestrosservicios {
 	font-family: var(--poppins);
-	font-size: 75px;
+	font-size: 45px;
+	
 }
 
 form {
@@ -114,8 +123,8 @@ form {
 	background: #e2e2e2;
 	justify-content: space-around;
 	border-radius: 10px;
-	margin: 20px;
-	width: 100vw;
+	margin: 0;
+	width: 100%;
 	padding: 20px 0;
 }
   
@@ -158,3 +167,4 @@ section [id] {
 html {
 	scroll-behavior: smooth;
 }
+
